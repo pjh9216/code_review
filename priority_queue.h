@@ -1,3 +1,6 @@
+#ifndef CODE_REVIEW_PROJECT1_TEMPLATE_PRIORITY_QUEUE_H_
+#define CODE_REVIEW_PROJECT1_TEMPLATE_PRIORITY_QUEUE_H_
+
 #include <queue>
 
 template <typename T> 
@@ -13,3 +16,5 @@ class TemplatePriorityQueue {
 		void push(const T&);
 		void pop();	
 };
+
+#endif  // CODE_REVIEW_PROJECT1_TEMPLATE_PRIORITY_QUEUE_H_
